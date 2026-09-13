@@ -7,7 +7,7 @@ cask "brewery" do
   desc "One-click brew update, upgrade and upgrade --greedy with a native macOS GUI"
   homepage "https://bymemory.dev"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "brewery.app"
 
